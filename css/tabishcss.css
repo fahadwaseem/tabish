@@ -1,0 +1,749 @@
+@font-face {
+    font-family: helmedium;
+    src: url('../fonts/HelveticaNeueMedium.ttf');
+}
+@font-face {
+    font-family: helbold;
+    src: url('../fonts/HelveticaNeueBd.ttf');
+}
+@font-face {
+    font-family: helblackcond;
+    src: url('../fonts/HelveticaNeueBlackCond.ttf');
+}
+@font-face {
+    font-family: hellight;
+    src: url('../fonts/HelveticaNeueLt.ttf');
+}
+@font-face {
+    font-family: helthin;
+    src: url('../fonts/HelveticaNeueThin.ttf');
+}
+.tabishbody{
+	font-family: hellight;
+	background-color: #ffffff;
+}
+.main{
+	margin-top: -10px;
+}
+.logoimage{
+	width: 100%;
+    height: 64px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.navbar-header{
+	margin-left: 0%;
+}
+.navlist{
+	margin-top: 2%;
+    margin-right: 8%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar{
+	background-color: #ffffff;
+	height: 110px;
+}
+#landingnavbar{
+	margin-top: 10px;
+}
+.categories{
+	color: #252525;
+}
+a.categories:hover{
+	color: #bb212d;
+	text-decoration: none;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: #ffffff;
+}
+.section1{
+	background-image: url(../img/parcel-collect-header-large1.jpg);
+	background-repeat: no-repeat;
+    background-position: 100% 100%;
+    min-height: 450px;
+    background-size: 1350px;
+}
+.white-out {
+    display: inline-block;
+    background: #fff;
+}
+    .white-out img {
+        opacity: 0.2;
+    }
+.sec1heading{
+	font-family: helmedium;
+    font-size: 26px;
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 15%;
+    font-weight: bold;
+}
+.sec1hr{
+	width: 12%;
+    color: #bd212e;
+    border: solid 5px #bd212e;
+    margin-left: 15%;
+}
+.sec1image{
+	margin-top: 6%;
+	margin-left: 20%;
+}
+.sec1button{
+    color: white;
+    background-color: #bd212e;
+    padding: 18px;
+    width: 24%;
+    margin-top: 0%;
+    border: none;
+    margin-left: 47%;
+    font-size: 20px;
+    font-family: helmedium;
+    font-weight: bold;
+}
+.sec1button:hover{
+    background-color: rgb(135, 7, 17);
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+.sec1subbutton{
+	color: white;
+	background-color: #464646;
+	padding: 9px;
+    width: 12%;
+    margin-top: 0%;
+    border: none;
+    margin-left: 59%;
+    font-size: 12px;
+}
+.sec1subbutton:hover{
+    background-color: rgba(60, 118, 61, 0.8);
+    color: #FFFFFF;
+    text-decoration:none;
+}
+.section2{
+	height: 600px;
+}
+.sec2heading{
+	font-family: helthin;
+	font-size: 70px;
+	color: #313131;
+	margin-top: 0%;
+}
+.sec2subheading{
+	font-family: helblackcond;
+    color: #bd212e;
+    font-size: 28px;
+    margin-top: 0%;
+    width: 75%;
+}
+.sec2text{
+    font-weight: bold;
+    color: #464646;
+    font-size: 22px;
+    margin-top: 0%;
+    width: 66%;
+}
+.sec2hr{
+    width: 16%;
+    color: #bd212e;
+    border: solid 5px #bd212e;
+    margin-left: 0%;
+    margin-top: 20%;
+}
+.sec3heading{
+	font-family: helthin;
+	font-size: 70px;
+	color: #313131;
+	margin-top: 0%;
+}
+.sec3div1,.sec3div3{
+    background-color: #bc222e;
+    background-image: url(../img/building.jpg);
+    background-repeat: no-repeat;
+    min-height: 450px;
+    background-size: 337px 440px;
+}
+.sec3div1:hover,.sec3div3:hover{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.61)),url(../img/building.jpg);
+}
+.sec3button{
+	font-weight: bold;
+	border-color: #ffffff;
+    border: 2px groove;
+    background-color: transparent;
+    color: #ffffff;
+	font-size: 16px;
+	padding: 8px 20px 8px 20px;
+    margin-left: 62%;
+	margin-top: -4%;
+}
+.sec3button:hover{
+	background: rgba(0,0,0,0.8);
+}
+.sec3subheading{
+    font-family: helmedium;
+    font-size: 40px;
+    margin-left: 10%;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: -3%;
+}
+.sec3div2,.sec3div4{
+    background-color: #464646;
+    background-image: url(../img/windturbine.jpg);
+    background-repeat: no-repeat;
+    min-height: 450px;
+	background-size: 691px 439px;
+}
+.sec3div2:hover,.sec3div4:hover{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.61)),url(../img/windturbine.jpg);
+}
+.sec4div1left{
+	background-color: #464646;
+	height: 250px;
+}
+.sec4div1left:hover{
+	background-color: #bd212e;
+}
+.sec4subheading{
+	font-family: helmedium;
+    font-size: 40px;
+    margin-left: 15%;
+    font-weight: bold;
+    color: #ffffff;
+}
+.sec4subtext{
+	font-family: helthin;
+	font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 15%;
+}
+.sec4link{
+	font-family: helthin;
+	font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 15%;
+}
+a.sec4link:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.sec4div1right{
+    background-image: url(../img/Private-Investigation-Case.jpg);
+    background-repeat: no-repeat;
+    min-height: 250px;
+    background-size: 1040px 553px;
+    background-position: 90% 52%;
+}
+.sec4div2right{
+    background-image: url(../img/windturbine.jpg);
+    background-repeat: no-repeat;
+    min-height: 250px;
+    background-size: 1040px 553px;
+    background-position: 90% 99%;
+}
+.sec5heading{
+	font-family: helthin;
+	font-size: 70px;
+	color: #313131;
+	margin-top: 0%;
+}
+.blog1{
+      height: 520px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/building.jpg);
+      background-size: 500px 600px;
+      background-repeat: no-repeat;
+  }
+  .blogdate{
+	font-family: helthin;
+	font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 15%;
+  }
+  .blogheadingbox{
+  	margin-top: 55%;
+  }
+  .blogheading{
+  	font-family: helmedium;
+    font-size: 40px;
+    margin-left: 15%;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .blogtext{
+  	font-family: helthin;
+	font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
+  }
+  .blog2{
+	height: 250px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/rising-stock-chart_large.jpg);
+    background-size: 683px 350px;
+    background-repeat: no-repeat;
+    background-position: 0% 29%;
+  }
+  .blogdate2{
+	font-family: helthin;
+	font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 5%;
+  }
+    .blogheadingbox2{
+  	margin-top: 5%;
+  }
+  .blogheading2{
+  	font-family: helmedium;
+    font-size: 40px;
+    margin-left: 5%;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .blogtext2{
+    font-family: helthin;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    width: 40%;
+    margin-left: 65%;
+    margin-top: 0%;
+  }
+  .footerlist{
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  .indexfooter{
+  	background-color: #464646;
+  	font-family: helthin;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    height: 230px;
+  }
+  .contactfooter{
+  	margin-left: 40%;
+  }
+  .teambody{
+    font-family: hellight;
+    background-color: #ffffff;
+  }
+  .teamsection1{
+    background-image: url(../img/parcel-collect-header-large1.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    min-height: 450px;
+    background-size: 1350px;
+  }
+  .teamsec1hr{
+    width: 12%;
+    color: #bd212e;
+    border: solid 5px #bd212e;
+    margin-left: 15%;
+  }
+  .teamsec1image{
+    margin-top: 2%;
+    margin-left: 20%;
+    height: 413px;
+  }
+  .teamsec1heading{
+    font-family: helmedium;
+    font-size: 40px;
+    width: 76%;
+    margin-left: 15%;
+    margin-top: 15%;
+    font-weight: bold;
+  }
+  .teamsec1button{
+    color: white;
+    background-color: #bd212e;
+    padding: 18px;
+    width: 34%;
+    margin-top: 0%;
+    border: none;
+    margin-left: 33%;
+    font-size: 20px;
+    font-family: helmedium;
+    font-weight: bold;
+  }
+  .teamsec1button:hover{
+    background-color: rgb(135, 7, 17);
+    color: #FFFFFF;
+    text-decoration:none;
+}
+.teamsection2{
+    height: 600px;
+}
+.teamsec2heading{
+    font-family: helthin;
+    font-size: 70px;
+    color: #313131;
+    margin-top: 0%;
+}
+.teamsec2text{
+    font-weight: bold;
+    color: #464646;
+    font-size: 22px;
+    margin-top: 0%;
+    width: 66%;
+}
+.teamleftimage{
+
+}
+.teamrightimage{
+
+}
+.teamsec2hr{
+    width: 400px;
+    color: #bd212e;
+    border: solid 5px #bd212e;
+    margin-left: 61px;
+    margin-top: 0%;
+}
+.teamsec2hr1{
+    width: 400px;
+    color: #bd212e;
+    border: solid 5px #bd212e;
+    margin-left: 62px;
+    margin-top: 0%;
+}
+.teamname{
+    font-family: helmedium;
+    font-size: 40px;
+    width: 76%;
+    font-weight: bold;
+}
+.teamposition{
+    font-weight: bold;
+    color: #464646;
+    font-size: 22px;
+    width: 66%;
+}
+  .teamfooter{
+    background-color: #464646;
+    font-family: helthin;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    height: 230px;
+  }
+  .teamsection2 img {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+  .teamsection2 img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+ 
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+/*/////////////////////////////////////////////////BLOG///////////////////////////////////////////*/
+.blogsection1{
+    background-color: #ebebeb;
+    height: 1700px;
+}
+.blogsection1heading{
+    font-family: helthin;
+    font-size: 70px;
+    color: #313131;
+    margin-top: 0%;
+}
+.blogblog1{
+      height: 300px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/building.jpg);
+      background-size: 500px 600px;
+      background-repeat: no-repeat;
+  }
+  .blogblogdate{
+    font-family: helthin;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 8%;
+  }
+  .blogblogheadingbox{
+    margin-top: 15%;
+  }
+  .blogblogheading{
+    font-family: helmedium;
+    font-size: 40px;
+    margin-left: 8%;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .blogblogtext{
+    font-family: helthin;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    width: 70%;
+    margin-left: 8%;
+    margin-top: 10%;
+  }
+    .blogfooter{
+    background-color: #464646;
+    font-family: helthin;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    height: 230px;
+  }
+    .blogblog2{
+    height: 300px;
+    width: 108%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/rising-stock-chart_large.jpg);
+    background-size: 696px 392px;
+    background-repeat: no-repeat;
+    background-position: 0% 29%;
+  }
+  .blogblogdate2{
+    font-family: helthin;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 5%;
+  }
+    .blogblogheadingbox2{
+    margin-top: 5%;
+  }
+  .blogblogheading2{
+    font-family: helmedium;
+    font-size: 40px;
+    margin-left: 5%;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .blogblogtext2{
+    font-family: helthin;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    width: 41%;
+    margin-left: 5%;
+    margin-top: 6%;
+  }
+  .blogsec1hr{
+    width: 74%;
+    color: #bd212e;
+    border: solid 5px #bd212e;
+    margin-left: -50%;
+}
+/*/////////////////////////////////////CONTAAAAAAAAAAAAAACTTTTTTTTTTTTTTTTTTT////////////////////////////////////////*/
+.contactheading{
+    font-family: helthin;
+    font-size: 50px;
+    color: #bd212e;
+    margin-top: 5%;
+    padding-left: 6%;
+}
+.contactbody{
+    font-family: hellight;
+    background-color: #ebebeb;
+}
+.contactcontainer{
+    background-color: #ffffff;
+    box-shadow:  0 0 10px #888888;
+    height: 600px;
+}
+.contactsubheading{
+    font-family: helthin;
+    font-size: 27px;
+    color: #ffffff;
+    margin-top: 15%;
+    width: 100%;
+    padding-left: 10%;
+}
+.rightcontact{
+    background-color: #464646;
+    height: 600px;
+    color: #ffffff;
+}
+.contactname{
+    border: 0px solid #464646;
+    border-bottom-width: 1px;
+    width: 55%;
+    border-bottom-color: rgba(70, 68, 70, 0.73);
+    font-family: helthin;
+    font-weight: bold;
+    padding: 10px 10px 22px 10px;
+    margin-left: 12%;
+    font-size: 18px;
+}
+.contactnumber{
+    border: 0px solid #464646;
+    border-bottom-width: 1px;
+    width: 55%;
+    border-bottom-color: rgba(70, 68, 70, 0.73);
+    font-family: helthin;
+    font-weight: bold;
+    padding: 10px 10px 22px 10px;
+    margin-left: 12%;
+    font-size: 18px;
+}
+.contactemail{
+    border: 0px solid #464646;
+    border-bottom-width: 1px;
+    width: 55%;
+    border-bottom-color: rgba(70, 68, 70, 0.73);
+    font-family: helthin;
+    font-weight: bold;
+    padding: 10px 10px 22px 10px;
+    margin-left: 12%;
+    font-size: 18px;
+}
+.contactmessage{
+    border: 0px solid #464646;
+    border-bottom-width: 1px;
+    width: 55%;
+    border-bottom-color: rgba(70, 68, 70, 0.73);
+    
+    font-weight: bold;
+    padding: 10px 10px 22px 10px;
+    margin-left: 12%;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.contactbutton{
+    color: white;
+    background-color: #bd212e;
+    padding: 10px;
+    width: 13%;
+    margin-top: 0%;
+    border: none;
+    margin-left: 12%;
+    font-size: 18px;
+    font-family: helthin;
+    font-weight: bold;
+    border-radius: 9px;
+}
+.contactbutton:hover{
+    background-color: rgb(135, 7, 17);
+    color: #FFFFFF;
+    text-decoration:none;
+}
+.contactmarkertext{
+    font-family: helthin;
+    font-weight: bold;
+    font-size: 17px;
+    color: #ffffff;
+    width: 100%;
+}
+.markericon, .mailicon, .phoneicon{
+    padding-left: 60%;
+}
+.contactmailtext{
+    font-family: helthin;
+    font-weight: bold;
+    font-size: 17px;
+    color: #ffffff;
+    width: 100%;
+}
+.contactphonetext{
+    font-family: helthin;
+    font-weight: bold;
+    font-size: 17px;
+    color: #ffffff;
+    width: 100%;
+}
+/*/////////////////////////////////////////////////BRANDDDDDDDDDDDDDDDDDD//////////////////////////////////*/
+.brandsection1{
+    background-image: url(../img/parcel-collect-header-large1.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    min-height: 450px;
+    background-size: 1350px;
+}
+.brandsec1heading{
+    font-family: helmedium;
+    font-size: 43px;
+    width: 65%;
+    margin-left: 15%;
+    margin-top: 15%;
+    font-weight: bold;
+}
+.brandsec1image{
+    margin-top: 6%;
+    margin-left: 0%;
+    width: 59%;
+}
+.brandsec1button{
+    color: white;
+    background-color: #bd212e;
+    padding: 18px;
+    width: 24%;
+    margin-top: 0%;
+    border: none;
+    margin-left: 38%;
+    font-size: 20px;
+    font-family: helmedium;
+    font-weight: bold;
+}
+.brandsec1button:hover{
+    background-color: rgb(135, 7, 17);
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+
+
+
+
+.profile-img-container {
+    position: relative;
+    display: inline-block; /* added */
+    overflow: hidden; /* added */
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.profile-img-container img {width:80%;} /* remove if using in grid system */
+
+
+.profile-img-container img:hover {
+    opacity: 0.5
+}
+.profile-img-container:hover a {
+    opacity: 1; /* added */
+    top: 0; /* added */
+    z-index: 500;
+}
+/* added */
+.profile-img-container:hover a span {
+    top: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+/* added */
+.profile-img-container a {
+    display: block;
+    position: absolute;
+    top: -100%;
+    opacity: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    color: inherit;
+}
